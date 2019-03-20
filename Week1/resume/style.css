@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1, 7;
+    background: hsl(0, 0%, 3%);
+    color: rgb(59, 58, 58);
+}
+
+
+.img {
+    display: inline-block;
+    overflow: visible;
+    text-align: right;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 32px;
+    background: burlywood;
+    box-shadow: lightgrey;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+section: last-child {
+    border-bottom: none;
+}
+
+.top-section{
+    background: lightseagreen;
+    
+}
+
+.section-title {
+       font-weight: bold;
+       font-size: 23px;
+       color: lightseagreen;
+       font-family: 'Times New Roman', Times, serif;
+}
+
+.myimage {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.myname {
+    font-size: 48px;
+    line-height: 1;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mytitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: purple;
+}
+
+.link-item img {
+margin-right: 6px;
+margin-top: 10px;
+}
+
+.job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgray;
+}
+
+.job:last-child {
+    border-bottom: none;
+}
+.job-tile-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: auto;
+}
+.job-company {
+
+    font-weight: bold;
+    line-height: 1.2;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    
+}
+
+.position {
+    margin-bottom: 10px;
+}
+
+
+.Edu {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgray;
+}
+
+.Edu:last-child {
+    border-bottom: none;
+}
+.Edu-tile-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: auto;
+}
+.School {
+
+    font-weight: bold;
+    line-height: 1.2;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    
+}
+
+.Degree {
+    margin-bottom: 10px;
+}
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 15px;
+}
+
+.skills-container {
+    
+    list-style-type: inherit;
+}
+
+.intr-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.intr-container img {
+    height: 35px;
+}
+
+.top-section h1{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.top-section p{
+    color: whitesmoke;
+}
